@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Logo from '../assets/Img/Logo.png';
 function Nav() {
   return (
     <nav className="bg-indigo-700 border-b border-indigo-500">
@@ -12,7 +12,7 @@ function Nav() {
           <a className="flex flex-shrink-0 items-center mr-4" href="/index.html">
             <img
               className="h-10 w-auto"
-              src="images/logo.png"
+              src={ Logo }
               alt="React Jobs"
             />
             <span className="hidden md:block text-white text-2xl font-bold ml-2"
